@@ -1,0 +1,5 @@
+@use "../themes/custom" as *;
+
+.card{
+    background-color: var(--card-bg-color) !important;
+}

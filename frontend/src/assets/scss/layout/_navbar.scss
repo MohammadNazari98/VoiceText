@@ -1,0 +1,14 @@
+@use "../themes/custom" as *;
+
+.navbar.sticky-top{
+    background-color: var(--bg-color) !important;
+    a , i{
+        color: var(--navbar-link-color);
+        &:hover{
+            color: $primary;
+        }
+    }
+}
+.active{
+    color: $primary !important
+}

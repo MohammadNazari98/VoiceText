@@ -1,0 +1,13 @@
+@use "../themes/custom" as *;
+
+#theme-toggle{
+    font-size: larger;
+}
+
+body {
+    background-color: var(--bg-color) !important;
+}
+
+.text-color{
+    color: var(--text-color);
+}

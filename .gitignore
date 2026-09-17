@@ -1,0 +1,84 @@
+# ==========================================
+# Python / FastAPI - Backend
+# ==========================================
+
+backend/__pycache__/
+backend/**/__pycache__/
+backend/*.py[cod]
+backend/**/*.py[cod]
+
+# Virtual environments
+backend/venv/
+backend/.venv/
+backend/env/
+backend/ENV/
+
+# Python cache / testing
+backend/.pytest_cache/
+backend/.coverage
+backend/htmlcov/
+
+# Build
+backend/build/
+backend/dist/
+backend/*.egg-info/
+backend/**/*.egg-info/
+
+
+# ==========================================
+# React / Vite - Frontend
+# ==========================================
+
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# npm / yarn / pnpm logs
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/pnpm-debug.log*
+
+
+# ==========================================
+# Environment Variables
+# ==========================================
+
+.env
+.env.*
+!.env.example
+
+backend/.env
+frontend/.env
+
+
+# ==========================================
+# Machine Learning Models
+# ==========================================
+
+*.pth
+*.pt
+
+
+# ==========================================
+# Temporary Files
+# ==========================================
+
+backend/temp/
+frontend/temp/
+
+
+# ==========================================
+# IDE / Editors
+# ==========================================
+
+.vscode/
+.idea/
+
+
+# ==========================================
+# Operating System
+# ==========================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
